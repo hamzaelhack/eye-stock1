@@ -1,0 +1,98 @@
+/* Invoice Styles */
+@media print {
+    body {
+        background: #fff !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        margin: 0 !important;
+        padding: 20px !important;
+    }
+    .container {
+        width: 100% !important;
+        max-width: none !important;
+        padding: 20px !important;
+        margin: 0 !important;
+    }
+    .no-print {
+        display: none !important;
+    }
+    .print-only {
+        display: block !important;
+    }
+    .invoice-header {
+        border-bottom: 2px solid #333 !important;
+        margin-bottom: 30px !important;
+        padding-bottom: 20px !important;
+    }
+    .invoice-title {
+        font-size: 24px !important;
+        font-weight: bold !important;
+        color: #333 !important;
+        margin-bottom: 10px !important;
+    }
+    .invoice-number {
+        font-size: 16px !important;
+        color: #666 !important;
+    }
+    .company-info {
+        text-align: right !important;
+        font-size: 14px !important;
+    }
+    .company-name {
+        font-size: 20px !important;
+        font-weight: bold !important;
+        margin-bottom: 10px !important;
+    }
+    .client-info {
+        background: #f8f9fa !important;
+        padding: 15px !important;
+        border-radius: 5px !important;
+        margin-bottom: 30px !important;
+    }
+    .table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+        margin-bottom: 30px !important;
+    }
+    .table th {
+        background: #f8f9fa !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        padding: 12px !important;
+        border: 1px solid #dee2e6 !important;
+    }
+    .table td {
+        padding: 12px !important;
+        border: 1px solid #dee2e6 !important;
+    }
+    .table tfoot tr {
+        background: #f8f9fa !important;
+        font-weight: bold !important;
+    }
+    .text-end {
+        text-align: right !important;
+    }
+    .text-center {
+        text-align: center !important;
+    }
+    .amount-in-words {
+        margin: 20px 0 !important;
+        font-style: italic !important;
+        color: #666 !important;
+    }
+    .payment-info {
+        margin-top: 30px !important;
+        font-style: italic !important;
+    }
+    .signature-section {
+        margin-top: 50px !important;
+        padding-top: 30px !important;
+        border-top: 1px solid #dee2e6 !important;
+    }
+    .footer-info {
+        margin-top: 30px !important;
+        font-size: 12px !important;
+        text-align: center !important;
+        color: #666 !important;
+    }
+}
